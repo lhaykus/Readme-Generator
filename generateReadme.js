@@ -3,11 +3,11 @@ function generateReadme(answers) {
  # ${answers.title}
 
 ## Table of Contents
-    -[Description] (#description)
-    -[Installation] (#installation)
-    -[Usage] (#usage)
-    -[Contriubting] (#contriubtion)
-    -[Tests] (#tests)
+ - [Description](#description)
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Contriubting](#contriubtion)
+ - [Tests](#tests)
     
 
  ## Description
@@ -31,8 +31,8 @@ function generateReadme(answers) {
 
 
  ## Questions
-    My Github [${answers.github}](https://github.com/${answers.github}) <br>
-    <br>
+    My Github: [${answers.github}](https://github.com/${answers.github}) <br />
+    <br />
     Send me an email: ${answers.email}  
     `
     

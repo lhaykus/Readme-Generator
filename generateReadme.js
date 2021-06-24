@@ -1,35 +1,36 @@
 function generateReadme(answers) {
-    return ` #${answers.title}
+    return ` 
+ # ${answers.title}
 
-    ## Table of Contents
-    -[Description](#description)
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[Contriubting](#contriubtion)
-    -[Tests](#tests)
+## Table of Contents
+    -[Description] (#description)
+    -[Installation] (#installation)
+    -[Usage] (#usage)
+    -[Contriubting] (#contriubtion)
+    -[Tests] (#tests)
     
 
-    ## Description
+ ## Description
     ${answers.description}
 
-    ##Installation 
+  ## Installation 
     ${answers.installation}
 
 
-    ##Usage 
+ ## Usage 
     ${answers.usage}
 
-    ##License
+## License
 
 
-    ##Contributing
+ ## Contributing
     ${answers.constriubtion}
 
-    ##Tests 
+## Tests 
     ${answers.tests}
 
 
-    ##Contact Info
+ ## Contact Info
     ${answers.github}
     ${answers.email}
     

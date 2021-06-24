@@ -30,15 +30,10 @@ function generateReadme(answers) {
     ${answers.tests}
 
 
- ## Contact Info
-    ${answers.github}
-    ${answers.email}
-    
-    
-    
-    
-    
-    
+ ## Questions
+    My Github [${answers.github}](https://github.com/${answers.github}) <br>
+    <br>
+    Send me an email: ${answers.email}  
     `
     
 }

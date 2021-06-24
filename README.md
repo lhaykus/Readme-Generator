@@ -1,5 +1,5 @@
  
- # hfhf
+ # Readme
 
 ## Table of Contents
     -[Description] (#description)
@@ -10,14 +10,14 @@
     
 
  ## Description
-    hfhf
+    creating a app that generate a readme
 
   ## Installation 
-    fhfh
+    install inquiere
 
 
  ## Usage 
-    fhfh
+    use when needing to generate a good readme
 
 ## License
 
@@ -26,12 +26,12 @@
     undefined
 
 ## Tests 
-    fhfh
+    sdfkhasdjkfhsdjkhaskdjhfsad
 
 
- ## Contact Info
-    fhfh
-    hfhf
+ ## Questions
+    My Github [loryn](https://github.com/loryn)
+    Send me an email: loiryn
     
     
     

@@ -5,7 +5,7 @@ const generateReadme = require('./generateReadme');
 
 
 
-// Creating an array of questions
+// Creating questions to create readMe
 inquirer
 .prompt([
     //Project title
@@ -31,13 +31,15 @@ inquirer
     message: 'Enter a description of the installation instructions for your project.',
 },
 {
-    
+    //Usage Information 
+
     type: 'input',
     name: 'usage',
     message: 'Enter the usage information for your project',
 },
 {
     //Contribution guidelines
+    
     type: 'input',
     name: 'contriubtion',
     message: 'Enter the contribution guidelines for your project',

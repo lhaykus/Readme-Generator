@@ -1,5 +1,14 @@
  
- # ReadMe Generator
+ # Readme generator
+## Example Video
+Youtube :
+https://youtu.be/xpv0ApgeHXA
+
+Google Drive :
+https://drive.google.com/file/d/1u0CGULjE-RFcALqvBjoSX6I2xEZuPjXP/view?usp=sharing
+
+
+ 
 
 ## Table of Contents
  - [Description](#description)
@@ -10,14 +19,14 @@
     
 
  # Description
-   This app is made to create a well formated and professional readme.md for any project. Using Node.js and the inquirer package, this app allows users to fill out certain questions about their project, and then the answers to those questions will be professionally formatted and created into a readme.md file to use for their project. This gives users the chance to create professional readme easily in just a matter of seconds.
+   This app is used to create professional readme files to use for any project using node.js and inquerier package. This app includes the title, description, installations instructions, contributions, usage instructions, the licenses used, a testing area and a questions area that links to the users github and email address.
 
   # Installation 
-   To use this project Node.js has to be installed and the inquirer package.
+   To use this app node.js and inquerier package need to installed
 
 
  # Usage 
-   Use when you need a professional, top-graded readme for any project 
+   The usage of this app is for anyone who wants a readme for any project. The user just does node index in their terminal, answer the questions and a professional readme is created for the user to use
 
 # License
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -33,13 +42,15 @@
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
  # Contributing
-   
+   contributions here
 
 # Tests 
-   Tests here
+   tests here
 
 
  # Questions
  If you have any questions you may reach me at my Github: [lhaykus](https://github.com/lhaykus) or feel free to send me an email at
-    ssample@sample.com  
+    sample@sample.com  
     
+
+![readmegif](./readmegeneratorgif.gif)

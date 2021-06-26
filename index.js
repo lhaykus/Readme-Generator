@@ -5,7 +5,7 @@ const generateReadme = require('./generateReadme');
 
 
 
-// Creating questions to create readMe
+// Creating questions to create readme 
 inquirer
 .prompt([
     //Project title

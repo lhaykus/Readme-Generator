@@ -53,4 +53,9 @@ https://drive.google.com/file/d/1u0CGULjE-RFcALqvBjoSX6I2xEZuPjXP/view?usp=shari
     sample@sample.com  
     
 
+Gif of the app
+
 ![readmegif](./readmegeneratorgif.gif)
+
+Gif showing Table of Contents links jumping to correspoding area of readme
+![gif](./functioninglinksgif.gif)

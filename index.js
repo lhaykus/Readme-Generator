@@ -63,7 +63,7 @@ inquirer
     message: 'What is your email address?',
 },
 {
-    //A list of what license are for this project
+    //A list of what license were used for this project
     type: 'list',
     name: 'license',
     message: 'What license did you use for this project?',
@@ -78,10 +78,11 @@ inquirer
     ],
 },
 
-])
+])//Creating a function to create readmefile using the users answers
 .then((answers) => {
 const READMEfile = generateReadme(answers);
-//writes to new file 'readme.md'
+//Creates new file 'readme.md', using the information from the readmefile which is the users answers and fills in the readme
+//if there is an error, the error will be logged else 'readme has been created' will be logged to let user know it worked and their readme is ready
 fs.writeFile('README.md', READMEfile, err => {
     if(err) {
         return console.log(err);
@@ -92,9 +93,6 @@ fs.writeFile('README.md', READMEfile, err => {
 
 
 })
-.catch((err) => {
-console.log(err);
-});
 
 // TODO: Create a function to write README file
 

@@ -1,7 +1,5 @@
-//Function to create the readme using the users answers and putting them in the right section of the readme
-function generateReadme(answers) {
-    return ` 
- # ${answers.title}
+ 
+ # Readme Generator
 
 ## Table of Contents
  - [Description](#description)
@@ -12,14 +10,14 @@ function generateReadme(answers) {
     
 
  # Description
-   ${answers.description}
+   This app is a readme generator used to create a good, well formatted read me for any project to make it easier and faster to create the best readme.md
 
   # Installation 
-   ${answers.installation}
+   To use this install node and inquierer
 
 
  # Usage 
-   ${answers.usage}
+   Whenever you need a professional readme
 
 # License
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -35,34 +33,13 @@ function generateReadme(answers) {
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
  # Contributing
-   ${answers.contriubtion}
+   
 
 # Tests 
-   ${answers.tests}
+   Test here
 
 
  # Questions
- If you have any questions you may reach me at my Github: [${answers.github}](https://github.com/${answers.github}) or feel free to send me an email at
-    ${answers.email}  
-    `
+ If you have any questions you may reach me at my Github: [loryn](https://github.com/loryn) or feel free to send me an email at
+    loryn@loryn.com  
     
-}
-
-module.exports = generateReadme;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
